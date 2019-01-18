@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+Letter	Description	Examples
+y	Year	2013
+M	Month in year	July, 07, 7
+d	Day in month	1-31
+E	Day name in week	Friday, Sunday
+a	Am/pm marker	AM, PM
+H	Hour in day	0-23
+h	Hour in am/pm	1-12
+m	Minute in hour	0-60
+s	Second in minute	0-60

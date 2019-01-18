@@ -1,5 +1,6 @@
 package stringjoiner;
 
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.StringJoiner;
@@ -13,6 +14,12 @@ public class StringJoinerEx {
 		stringJoin();
 		collectorsJoining();
 		collectorsObject();
+		
+		String a = "  sdfsdf sdfsdf  ";
+		System.out.println(a.trim());
+		
+		InputStream stream = Thread.currentThread().getContextClassLoader().getResourceAsStream("deneme.properties");
+		System.out.println(stream.toString());
 	}
 	
 	private static void generalEx() {
